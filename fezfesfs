@@ -1,0 +1,192 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local X = Material.Load({
+	Title = "Sanic GUI / Dodge#5540",
+	Style = 3,
+	SizeX = 500,
+	SizeY = 350,
+	Theme = "Dark",
+	ColorOverrides = {
+		MainFrame = Color3.fromRGB(235,235,235)
+	}
+})
+
+local Y = X.New({
+	Title = "Sanic Infection GUI By Dodge#5540"
+})
+local A = Y.Button({
+	Text = "Become Yellow Sanic",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.GameFolder.InfectionPart.Strong.TransfurPart.CFrame
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3.13, 4.999, 85.69)
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "This function can get you banned in up-to-date servers; use at your own risk."
+			})
+		end
+	
+	}
+})
+
+local A = Y.Button({
+	Text = "Become Medium Sanic",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.GameFolder.InfectionPart.Medium.TransfurPart.CFrame
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3.13, 4.999, 85.69)
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "This function can get you banned in up-to-date servers; use at your own risk."
+			})
+		end
+	}
+})
+
+local A = Y.Button({
+	Text = "Become Normal Sanic",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.GameFolder.InfectionPart.Weak.TransfurPart.CFrame
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3.13, 4.999, 85.69)
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "This function can get you banned in up-to-date servers; use at your own risk."
+			})
+		end
+	}
+})
+
+local A = Y.Button({
+	Text = "TP TO LOBBY SHOP",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.GameFolder.Shops.LobbyShops.MainShop.Border.CFrame
+		wait(1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.GameFolder.Shops.LobbyShops.MainShop.Border.CFrame
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "This function can get you banned in up-to-date servers; use at your own risk."
+			})
+		end
+	}
+})
+
+local A = Y.Button({
+	Text = "TP TO BAT SHOP",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.GameFolder.Shops.LobbyShops.FreeBat.BuyBat.CFrame
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "This function can get you banned in up-to-date servers; use at your own risk."
+			})
+		end
+	}
+})
+
+local A = Y.Button({
+	Text = "TP TO HEAL SHOP",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.GameFolder.Shops.MedkitShop.Decoration.Sign.CFrame
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "This function can get you banned in up-to-date servers; use at your own risk."
+			})
+		end
+	}
+})
+
+local A = Y.Button({
+	Text = "TP TO GRENADE SHOP",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.GameFolder.Shops.BetterShop.ToolBuy.BuyGrenade.CFrame
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "This function can get you banned in up-to-date servers; use at your own risk."
+			})
+		end
+	}
+})
+
+local A = Y.Button({
+	Text = "TP TO EXIT",
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.GameFolder.Escape.Door1.Base.CFrame
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "This function can get you banned in up-to-date servers; use at your own risk."
+			})
+		end
+	}
+})
+
+local A = Y.Button({
+	Text = "TP TO OBBY",    
+	Callback = function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.workspace.GameFolder.ObbyEnter.ObbyPart1.CFrame
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "This function can get you banned in up-to-date servers; use at your own risk."
+			})
+		end
+	}
+})
+
+local A = Y.Button({
+	Text = "Remove Sanic Death Barrier",
+	Callback = function()
+		game.Workspace.GameFolder.KillFields:Destroy()
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "This function can get you banned in up-to-date servers; use at your own risk."
+			})
+		end
+	}
+})
+
+local A = Y.Button({
+	Text = "ESP",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua"))()
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "This function can get you banned in up-to-date servers; use at your own risk."
+			})
+		end
+	}
+})
+
+local A = Y.Button({
+	Text = "UnInfect Yourself",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/FGEZF/refez/main/rggdrfgdr"))()
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "This function can get you banned in up-to-date servers; use at your own risk."
+			})
+		end
+	}
+})
